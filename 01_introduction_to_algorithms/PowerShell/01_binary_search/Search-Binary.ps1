@@ -1,4 +1,9 @@
-﻿$mylist = (1,3,5,7,9);
+﻿#Binary Search in Powershell / .net
+#Author ITAdder (Justino Garcia)
+#clear screen after every run.
+clear-host
+
+$mylist = (1,3,5,7,9);
 
 
 function Search-Binary
@@ -25,7 +30,7 @@ function Search-Binary
 
     while ($low -lt $high) {
 
-        $mid = ($low + $high);
+        $mid = ($low + $high) / 2;
 
         $guess = $list[$mid];
 
@@ -50,4 +55,4 @@ function Search-Binary
 
     }
 
-    Search-Binary -list $mylist -item 1
+    Search-Binary -list $mylist -item 2
