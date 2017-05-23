@@ -1,4 +1,4 @@
-#Countdown Recursion in Powershell / .net
+#Greeting Recursion in Powershell / .net
 #Author Rodmhgl (Rod Stewart)
 #clear screen after every run.
 clear-host
